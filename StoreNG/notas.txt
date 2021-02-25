@@ -1,1 +1,8 @@
 en esta carpeta se va acrear un proyecto de cero
+
+creacion de proyecto
+ng new OnlineStoreNG
+
+23. Tienda en Línea - Frontend con Angular - Master Page, Modulos y Componentes - Parte 1
+https://www.youtube.com/watch?v=9d8hgG9A_S0
+
