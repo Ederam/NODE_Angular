@@ -1,1 +1,2 @@
 se creo desde cero para enlazar con github
+se va a crear una carpeta para proyecto de cero
