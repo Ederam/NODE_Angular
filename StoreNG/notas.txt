@@ -31,3 +31,39 @@ git branch
 estando en la master
 git merge securityModule
 
+se añade ruteo de componentes configurando el path 
+git commit -a -m ""
+
+lazy loading Angular
+se configura desde el rutero principal
+
+uso de materialize
+npm install materialize-css@next
+
+luego de instalarlo se configura su uso en angular.json
+
+de la pagina de materializacss.com se toman los componentes a usar
+
+para el caso del menu se debe implementar con una parte js
+para dentro de assets se crea la carpeta scripts
+alli se crea el archivo materialize-init.js para editar el comportamiento 
+del componente de menu y la inicializacion de cualquier componente de materialize
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+hay que cambiar el option por el objeto que se va a modificar
+
+--validar ruta por error
+node-modules/materialize-css/dist/js/materialize.min.js
+node_modules/materialize-css/dist/js/materialize.min.js
+
+
+
+
+
+
+
+
