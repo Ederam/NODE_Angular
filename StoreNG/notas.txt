@@ -6,3 +6,28 @@ ng new OnlineStoreNG
 23. Tienda en Línea - Frontend con Angular - Master Page, Modulos y Componentes - Parte 1
 https://www.youtube.com/watch?v=9d8hgG9A_S0
 
+ng serve -o // para que abra directamente en el navegador
+
+dentro de src 
+crea carpeta public
+mkdir public
+
+se crea una nueva rama para seguridad
+git checkout -b securityModule
+
+creacion de Modulos
+ng g m modules/security --routing
+
+creacion de componentes para cada Modulos
+ng g c modules/security/login
+ng g c modules/parameters/category/category-creation
+
+seguimos en master para las nuevas ramas
+git add .
+git commit -m ""
+git branch
+
+--realizar merge con la rama security
+estando en la master
+git merge securityModule
+
